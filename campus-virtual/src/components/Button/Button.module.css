@@ -1,0 +1,22 @@
+.button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: var(--border-radius);
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.primary {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.primary:hover {
+  background-color: #2563eb;
+  box-shadow: var(--shadow-sm);
+}
+
+.danger {
+  background-color: var(--color-danger);
+  color: white;
+}
